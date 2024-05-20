@@ -30,7 +30,7 @@
 # Author: MG
 # Date:   2015-06-15
 
-wget http://www.minorplanetcenter.net/iau/lists/ObsCodes.html 
+wget https://www.minorplanetcenter.net/iau/lists/ObsCodes.html 
 sed -e '2d' ObsCodes.html | grep -v "<" > OBSCODE.dat
 rm -f ObsCodes.html
 
